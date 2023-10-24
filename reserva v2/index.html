@@ -9,49 +9,80 @@
 		/>
 		<title>Mesas Disponibles</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 	</head>
+
+	<style>
+		body {
+			background-color: #ABBAEA;
+		}
+	</style>
+
 	<body>
 		<header>
 			<h1>Mesas Disponibles</h1>
 
 		</header>
-		<div class="container-items">
+		<div class="container-items" >
+
+			<div class="item"  >
+				<figure>
+				<img 
+					src="./images/Mesa_01.png"
+					id="img1"
+					alt="producto"
+					onclick="changeImage()"
+					/>
+				</figure>	
+				<div class="info-product">
+					<h1>MESA 01</h1>
+				</div>
+			</div>
+			
+			<div class="item"  >
+				<figure>
+				<img 
+					src="./images/Mesa 02.png"
+					id="img2"
+					alt="producto"
+					onclick="changeImage2()"
+					/>
+				</figure>	
+				<div class="info-product">
+					<h1>MESA 02</h1>
+				</div>
+			</div>
+
+			<div class="item" >
+				<figure>
+				<img
+				src="./images/Mesa 02.png"
+				id="img2"
+				alt="producto"
+				onclick="changeImage2()"
+				/>
+				</figure>
+				<div class="info-product">
+					<h1>MESA 02</h1>
+				</div>
+			</div>
+
 			<div class="item">
 				<figure>
 					<img
-						src="images/Mesa_01.png"
-						alt="producto"
+					src="./images/Mesa 03.png"
+					id="img3"
+					alt="producto"
+					onclick="changeImage3()"
 					/>
 				</figure>
 				<div class="info-product">
-					<h2>Mesa 01</h2>
-					<button>Seleccionar</button>
+					<h1>MESA 03</h1>
 				</div>
 			</div>
-			<div class="item">
-				<figure>
-					<img
-						src="images/MESA 02.png"
-						alt="producto"
-					/>
-				</figure>
-				<div class="info-product">
-					<h2>Mesa 02</h2>
-					<button>Seleccionar</button>
-				</div>
-			</div>
-			<div class="item">
-				<figure>
-					<img
-						src="images/MESA 03.png"
-						alt="producto"
-					/>
-				</figure>
-				<div class="info-product">
-					<h2>Mesa 03</h2>
-					<button>Seleccionar</button>
-				</div>
-			</div>
+
 			<div class="item">
 				<figure>
 					<img

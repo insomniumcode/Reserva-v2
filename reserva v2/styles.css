@@ -1,6 +1,4 @@
 /* Globales */
-*::after,
-*::before,
 *{
     margin: 0;
     padding: 0;
@@ -139,6 +137,13 @@ header{
 
 
 /* Main */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 .container-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,4 +194,9 @@ header{
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+    
 }
