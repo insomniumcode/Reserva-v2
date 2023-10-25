@@ -5,29 +5,59 @@ btnCart.addEventListener('click', () => {
     containerCartProducts.classList.toggle('hidden-cart')
 })
 
-function changeImage(){
+
+function Primera(){
     let displayImage = document.getElementById('img1')
-    if (displayImage.src.match('./images/Mesa_01.png')){
-        displayImage.src ='images/Mesa 01 v2.png'
+    if (displayImage.src.match('./images/Disponible.png')){
+        displayImage.src ='images/Reservada.png'
         } else {
-            displayImage.src ='images/Mesa_01.png'
+            displayImage.src ='images/Disponible.png'
         }
 }
 
-        function changeImage2(){
-            let displayImage = document.getElementById('img2')
-            if (displayImage.src.match('./images/Mesa 02.png')){
-                displayImage.src ='./images/Mesa 02 v2.png'
-                } else {
-                    displayImage.src ='./images/Mesa 02.png'
-                }
-        }
 
-    function changeImage3(){
-        let displayImage = document.getElementById('img3')
-        if (displayImage.src.match('./images/Mesa 03.png')){
-            displayImage.src ='./images/Mesa 03 v2.png'
-            } else {
-                displayImage.src ='./images/Mesa 03.png'
-            }
-    }
+
+function Segunda(){
+    let displayImage = document.getElementById('img2')
+    if (displayImage.src.match('./images/Disponible')){
+        displayImage.src ='./images/Reservada.png'
+        } else {
+            displayImage.src ='./images/Disponible.png'
+        } 
+}
+
+function Tercera(){
+    let displayImage = document.getElementById('img3')
+    if (displayImage.src.match('./images/Disponible.png')){
+        displayImage.src ='./images/Reservada.png'
+        } else {
+            displayImage.src ='./images/Disponible.png'
+        } 
+}
+
+function Cuarta(){
+    let displayImage = document.getElementById('img4')
+    if (displayImage.src.match('./images/Disponible.png')){
+        displayImage.src ='./images/Reservada.png'
+        } else {
+            displayImage.src ='./images/Disponible.png'
+        } 
+}
+
+function Quinta(){
+    let displayImage = document.getElementById('img5')
+    if (displayImage.src.match('./images/Disponible.png')){
+        displayImage.src ='./images/Reservada.png'
+        } else {
+            displayImage.src ='./images/Disponible.png'
+        } 
+}
+
+function Sexta(){
+    let displayImage = document.getElementById('img6')
+    if (displayImage.src.match('./images/Disponible')){
+        displayImage.src ='./images/Reservada.png'
+        } else {
+            displayImage.src ='./images/Disponible.png'
+        } 
+}
