@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ABBAEA;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.preparando {
+    flex: 1;
+}
+
+.orden-lista {
+    flex: 1;
+}
+
+.pedido {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    max-width: 400px; 
+}
+
+.pedido span {
+    display: block; 
+    word-wrap: break-word;
+}
+
+
+
+.boton-mover {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.boton-terminar {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
